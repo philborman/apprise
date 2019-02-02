@@ -18,6 +18,12 @@ The section identifies all of the services supported by this script. For more in
 Popular Notification Services
 -----------------------------
 The table below identifies the services this tool supports and some example service urls you need to use in order to take advantage of it.
+* Amazon Web Service (AWS) Simple Notification Service (SNS)
+	sns://AccessKeyID/AccessSecretKey/RegionName/+PhoneNo
+	sns://AccessKeyID/AccessSecretKey/RegionName/+PhoneNo1/+PhoneNo2/+PhoneNoN
+	sns://AccessKeyID/AccessSecretKey/RegionName/Topic
+	sns://AccessKeyID/AccessSecretKey/RegionName/Topic1/Topic2/TopicN
+
 * Boxcar
 	boxcar://hostname
 	boxcar://hostname/@tag
