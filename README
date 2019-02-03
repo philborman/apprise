@@ -29,6 +29,12 @@ The table below identifies the services this tool supports and some example serv
 	discord://webhook_id/webhook_token
 	discord://avatar@webhook_id/webhook_token
 
+* DBus
+	dbus://
+	qt://
+	kde://
+	glib://
+
 * Emby
 	emby://user@hostname/
 	emby://user:password@hostname
